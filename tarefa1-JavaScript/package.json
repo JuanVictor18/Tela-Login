@@ -8,7 +8,7 @@
     "start": "nodemon app.js"
     },
   "keywords": [],
-  "author": "",
+  "author": "Juan",
   "license": "ISC",
   "dependencies": {
     "cors": "^2.8.5",
