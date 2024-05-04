@@ -3,7 +3,8 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f0f0f0;
+    background-color: #f0f0f0; /* Cinza claro */
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .container {
@@ -35,19 +36,32 @@ input[type="submit"] {
     width: 100%;
     padding: 10px;
     margin-bottom: 10px;
-    border: 1px solid #cccccc; /* Azul claro */
+    border: 1px solid #b0c4de; /* Azul claro */
     border-radius: 3px;
 }
 
 input[type="submit"] {
-    background-color: #007bff; /* Azul */
+    background-color: #87ceeb; /* Azul claro */
     color: #ffffff; /* Branco */
     cursor: pointer;
 }
 
 input[type="submit"]:hover {
-    background-color: #0056b3; /* Azul escuro */
+    background-color: #4682b4; /* Azul mais escuro */
 }
 
 /* Estilos específicos para páginas */
-/* Adicione estilos específicos para as páginas de login, welcome e error aqui */
+/* Página de Login */
+.login-container {
+    background-color: #f0f8ff; /* Azul claro mais claro */
+}
+
+/* Página de Welcome */
+.welcome-container {
+    background-color: #f0ffff; /* Azul claro mais claro */
+}
+
+/* Página de Error */
+.error-container {
+    background-color: #f5f5f5; /* Cinza */
+}
